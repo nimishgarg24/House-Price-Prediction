@@ -73,7 +73,10 @@ Send a POST request to the /predict endpoint with the following JSON payload:<br
 }
 <br><br>
  4. Result:-<br>
-A successful response will return the predicted house price:
+A successful response will return the predicted house price:<br>{
+  "Predicted Price": 2.35
+}
+
 
 <br>
 <br>
