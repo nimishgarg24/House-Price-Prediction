@@ -39,3 +39,48 @@ Used the model to make predictions and returned the predicted house price.
 <br>
 <br>
 API USAGE GUIDE:-
+
+
+<br>
+<br>
+To deploy and access the House Price Prediction API, follow these steps:
+
+1. Start the API Server:-<br>
+In the Jupyter Notebook cell where the model training and API code exist, execute the following command to run the FastAPI application:<br>
+    uvicorn.run(app, host="0.0.0.0", port=8000)
+
+<br>
+<br>
+2. Access the API Documentation<br>
+Once the server is running, open your browser and navigate to:
+http://127.0.0.1:8000/docs
+This interactive Swagger UI allows you to test the API by providing input values and receiving predictions.
+
+<br>
+<br>
+3. Making Predictions
+<br>
+Send a POST request to the /predict endpoint with the following JSON payload:<br><br>
+{
+  "MedInc": 3.5,
+  "HouseAge": 25,
+  "AveRooms": 5.2,
+  "AveBedrms": 1.1,
+  "Population": 1000,
+  "AveOccup": 2.8,
+  "Latitude": 37.77,
+  "Longitude": -122.42
+}
+<br><br>
+ 4. Result:-<br>
+A successful response will return the predicted house price:
+
+<br>
+<br>
+5.Stopping the Server<br>
+To stop the API server, press CTRL + C in the terminal or interrupt the Jupyter Notebook kernel.
+
+
+
+
+
