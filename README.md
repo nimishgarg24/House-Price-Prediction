@@ -15,6 +15,7 @@ Checked for missing values and handled them (dropped NaN values).
 Split data into features (X) and target (y).
 Performed train-test split (80-20%) to separate training and testing sets.
 <br>
+<br>
 2. Model Selection & Optimization
 Model Used: RandomForestRegressor
 Hyperparameter Optimization: Used RandomizedSearchCV to find the best combination of:
@@ -23,6 +24,7 @@ max_depth: Maximum depth of the tree.
 min_samples_split: Minimum samples required to split a node.
 min_samples_leaf: Minimum samples required at a leaf node.
 Best Model: The best-performing model was selected and saved using joblib.
+<br>
 <br>
 3. Deployment Strategy
 Framework: FastAPI was used for deploying the model as a REST API.
