@@ -4,6 +4,8 @@
 It is a machine learning model which predicts the house prices in calfornia .The dataset used in this model is California housing dataset which is present in sklearn library.
 <br>
 <br>
+<br>
+<br>
 PROJECT WORKFLOW:-
 <br>
 <br>
@@ -33,4 +35,7 @@ Created a FastAPI application (app.py).
 Defined API endpoint (/predict) to receive house features as JSON input.
 Loaded the trained model (house_price_model.pkl).
 Used the model to make predictions and returned the predicted house price.
-
+<br>
+<br>
+<br>
+API USAGE GUIDE:-
