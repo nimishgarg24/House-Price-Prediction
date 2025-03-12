@@ -28,7 +28,7 @@ min_samples_leaf: Minimum samples required at a leaf node.<br>
 Best Model: The best-performing model was selected and saved using joblib.
 <br>
 <br>
-3. Deployment Strategy
+3. Deployment Strategy<br>
 Framework: FastAPI was used for deploying the model as a REST API.
 Steps:<br>
 Created a FastAPI application (app.py).<br>
