@@ -87,7 +87,8 @@ To stop the API server, press CTRL + C in the terminal or interrupt the Jupyter 
 
 <br>
 <br>
-![image](https://github.com/user-attachments/assets/563a583a-94b5-4b81-9a83-ac69463e1617)
+![image](https://github.com/user-attachments/assets/dd3dff09-cd06-495b-8775-fce46cbfe98d)
+
 
 <br><br>
 ![image](https://github.com/user-attachments/assets/411c3dad-0c97-4d2e-bfc3-cf3d41bc6996)
